@@ -14,6 +14,6 @@ Rooster.announceDawn = () => {
     } else {
       return hour.toString();
     };
-  }
+}
   
-  module.exports = Rooster;
+module.exports = Rooster;
