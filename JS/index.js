@@ -1,0 +1,2 @@
+// Define a rooster
+Rooster = {};
