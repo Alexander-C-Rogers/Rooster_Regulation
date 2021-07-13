@@ -1,0 +1,37 @@
+{
+  "name": "rooster_regulation",
+  "version": "1.0.0",
+  "description": "rooster regulation",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/**/*_test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alexander-C-Rogers/Rooster_Regulation.git"
+  },
+  "author": "Alexander-C-Rogers",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alexander-C-Rogers/Rooster_Regulation/issues"
+  },
+  "homepage": "https://github.com/Alexander-C-Rogers/Rooster_Regulation#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "express-session": "^1.17.2",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.2.5",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "sequelize": "^6.6.5"
+  },
+  "devDependencies": {
+    "express": "^4.17.1",
+    "mocha": "^9.0.2",
+    "nodemon": "^2.0.12",
+    "prettier": "^2.3.2",
+    "sequelize-cli": "^6.2.0"
+  }
+}
